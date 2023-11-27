@@ -78,8 +78,9 @@ footer{
 	line-height: 2;
 }
 .link-boxes>div>a:nth-child(1){
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: bold;
+	color: #F9F4DF;
 }
 .link-boxes{
 	display: flex;
