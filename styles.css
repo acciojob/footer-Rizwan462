@@ -1,1 +1,103 @@
 /* your code here */
+footer{
+	width: 100vw;
+	background: black;,
+	font-family: arial sans-serif;
+}
+.logo_name{
+	color: white;
+	font-size: 40px;
+}
+.media-icons>div>i{
+	color: white;
+	font-size: 22px;
+}
+.link-boxes>div>a{
+	text-decoration: none;
+	color: white;
+}
+.media-icons>div:nth-child(1){
+	width: 25px;
+	height: 25px;
+	background-color: #4267B2;
+	border-radius: 50%;
+	text-align:center;
+	padding:8px;
+}
+.media-icons>div:nth-child(2){
+	width: 25px;
+	height: 25px;
+	background-color:#1DA1F2;
+	border-radius: 50%;
+	text-align:center;
+	padding:8px;
+}
+.media-icons>div:nth-child(3){
+	width: 25px;
+	height: 25px;
+	background-color:#E1306C;
+	border-radius: 50%;
+	text-align:center;
+	padding:8px;
+}
+.media-icons>div:nth-child(4){
+	width: 25px;
+	height: 25px;
+	background-color:#0077B5;
+	border-radius: 50%;
+	text-align:center;
+	padding:8px;
+}
+.media-icons>div:nth-child(5){
+	width: 25px;
+	height: 25px;
+	background-color:#FF0000;
+	border-radius: 50%;
+	text-align:center;
+	padding:8px;
+}
+.media-icons{
+	display: flex;
+	flex-direction: row;
+	align-item:center;
+	justify-content:space-evenly;
+	width: 35vw;
+}
+.top{
+	display:flex;
+	align-item: center;
+	justify-content: space-between;
+	width: 90vw;
+	margin: auto;
+	padding-top:30px;
+	margin-bottom: 100px;
+}
+.link-boxes>div{
+	display: flex;
+	flex-direction: column;
+	line-height: 2;
+}
+.link-boxes>div>a:nth-child(1){
+	font-size: 22px;
+	font-weight: bold;
+}
+.link-boxes{
+	display: flex;
+	align-item: start;
+	justify-content: space-between;
+	width: 92vw;
+	margin: auto;
+}
+.bottom-details>div{
+	color: white;
+	display: flex;
+	align-item: center;
+	justify-content: space-between;
+	width: 85vw;
+	margin: auto;
+}
+.bottom-details{
+	background-color: #2C303A;
+	padding-top: 8px;
+	margin-top: 80px
+}
